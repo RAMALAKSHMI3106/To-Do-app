@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.big-container {
+  background-image: url('TODO.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.container1 {
+  background-color: aliceblue;
+  border-radius: 5rem;
+  height: 5rem;
+  text-align: center;
+  padding: 5px;
+  color: blue;
+}
+
+.container2 {
+  padding: 3rem;
+}
+
+.input {
+  height: 2.5rem;
+  width: 25rem;
+  border: solid gray;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.btn {
+  color: white;
+  border-radius: 50px;
+  height: 3rem;
+  width: 5rem;
+  background-color: rgb(33, 232, 232);
+  border-color: azure;
+  cursor: pointer;
+}
+.trash{
+    justify-self: center;
+    transform: scale(1.2);
+    cursor: pointer;
+    color: white;
+  border-radius: 50px;
+  height: 3rem;
+  width: 3rem;
+  background-color: rgb(33, 232, 232);
+  border-color: azure;
+  cursor: pointer;
+}
+
+#box {
+  width: 100%;
+  max-width: 700px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.task-item {
+  display: grid;
+  grid-template-columns: 30px 1fr 40px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.iop {
+  justify-self: center;
+  transform: scale(1.2);
+}
+
+.l {
+  font-size: 16px;
+  word-break: break-word;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: gray;
+}

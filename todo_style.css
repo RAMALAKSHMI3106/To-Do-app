@@ -1,0 +1,78 @@
+
+.rounded-div{
+    display: flex;
+    border:1px solid black;
+    border-top-left-radius:21rem;
+    border-bottom-left-radius:21rem;     
+    border-top-right-radius:20rem;
+    border-bottom-right-radius: 21rem;     
+    width:57rem;
+    background-color:rgba(250, 235, 215, 0.536);
+    margin:20px;
+}
+#sectionhome{
+    border:1px solid black;
+    display: flex;
+    height:100vh;
+    background-image:url('https://img.freepik.com/free-photo/time-organization-concept-close-up_23-2149046744.jpg?semt=ais_hybrid&w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.img{
+    width: 420px;
+    height: 85vh;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius:1rem;
+    border-top-left-radius:12rem;
+    border: solid;
+    border-bottom-left-radius:14rem;
+    
+}
+
+.image{
+    
+    margin: 2.5rem;
+}
+.to{
+    width:600px;
+    align-content:center;
+    
+    font-size: 2rem;
+
+    text-align: center;
+}
+.word{
+    border-top-right-radius: 12rem;
+    border-bottom-right-radius:14rem;
+    border-top-left-radius:1rem;
+    border: solid;
+    border-bottom-left-radius:1rem;
+   padding: 6rem;
+   width: 510px;
+   background-color: white;
+   margin-top: 2.5rem;
+   margin-bottom: 2rem;
+   margin-right: 2rem;
+   text-align: center;
+}
+.h1{
+   color: blue;
+   text-align: center;
+   text-decoration: underline;
+   text-decoration-color: black;
+}
+.para{
+    color: rgb(232, 93, 93);
+    text-align: center;
+    font-size: 23px;
+}
+.btn{
+   color:white;
+   border-radius: 50px; 
+   height: 3rem;
+   width: 10rem;
+   background-color: rgb(33, 232, 232);
+   border-color: azure;
+}
+
